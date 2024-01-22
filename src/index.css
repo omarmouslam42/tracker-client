@@ -1,0 +1,57 @@
+body{
+  background-color:rgb(253, 246, 235) !important;
+}
+a{
+  text-decoration: none !important;
+  color: black !important;
+}
+li{
+  list-style: none;
+}
+.nav-side1,.content{
+  background-color:rgba(250, 245, 211, 0.655) !important;
+}
+.nav2{
+  background-color:rgb(250, 245, 211) !important;
+}
+
+.active{
+  color: black;
+  
+  position: relative;
+}
+.active::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 4px;
+  height: 22px;
+  background-color: black;
+  border-radius: 0 10px 10px 0;
+  margin-top: 5px;
+}
+/* .total-ground{
+  background-color: rgb(255, 237, 211);
+} */
+
+::-webkit-scrollbar {
+  display: none;
+}
+.incomes .logo {
+  background-color: rgb(245, 236, 223);
+}
+
+.orb{
+  background-color: #f49b4d;
+  width: 70vh;
+  height: 70vh;
+  position: absolute;
+  border-radius: 50%;
+  margin-left: -37vh;
+  margin-top: -20vh;
+  background-color: linear-gradient(180deg , #F56692 100%, #F2994A 100%) ;
+  filter: blur(100px);
+  animation: body 12s alternate linear infinite ;
+}
+
